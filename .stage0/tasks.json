@@ -1,0 +1,145 @@
+{
+  "job": "fix a wrong parcel quote",
+  "tasks": [
+    {
+      "n": 1,
+      "id": "quote-no",
+      "region": "no",
+      "task": "Quotes for Norway (NO) come out one minor unit low on some parcels, compared with the carrier's rate card. Find the cause in the Norway rate module and fix it. tests/regions/test_no.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_no.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 2,
+      "id": "quote-de",
+      "region": "de",
+      "task": "Large, light parcels to Germany (DE) are being quoted far too cheaply. Find the cause in the Germany rate module and fix it. tests/regions/test_de.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_de.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 3,
+      "id": "quote-fr",
+      "region": "fr",
+      "task": "Every quote for France (FR) is a little lower than the carrier's rate card says it should be. Find the cause in the France rate module and fix it. tests/regions/test_fr.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_fr.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 4,
+      "id": "quote-es",
+      "region": "es",
+      "task": "Some customers in remote areas of Spain (ES) are quoted without the remote fee. Find the cause in the Spain rate module and fix it. tests/regions/test_es.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_es.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 5,
+      "id": "quote-it",
+      "region": "it",
+      "task": "Quotes for Italy (IT) come out one minor unit low on some parcels, compared with the carrier's rate card. Find the cause in the Italy rate module and fix it. tests/regions/test_it.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_it.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 6,
+      "id": "quote-nl",
+      "region": "nl",
+      "task": "Large, light parcels to Netherlands (NL) are being quoted far too cheaply. Find the cause in the Netherlands rate module and fix it. tests/regions/test_nl.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_nl.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 7,
+      "id": "quote-be",
+      "region": "be",
+      "task": "Every quote for Belgium (BE) is a little lower than the carrier's rate card says it should be. Find the cause in the Belgium rate module and fix it. tests/regions/test_be.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_be.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 8,
+      "id": "quote-se",
+      "region": "se",
+      "task": "Some customers in remote areas of Sweden (SE) are quoted without the remote fee. Find the cause in the Sweden rate module and fix it. tests/regions/test_se.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_se.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 9,
+      "id": "quote-dk",
+      "region": "dk",
+      "task": "Quotes for Denmark (DK) come out one minor unit low on some parcels, compared with the carrier's rate card. Find the cause in the Denmark rate module and fix it. tests/regions/test_dk.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_dk.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 10,
+      "id": "quote-fi",
+      "region": "fi",
+      "task": "Large, light parcels to Finland (FI) are being quoted far too cheaply. Find the cause in the Finland rate module and fix it. tests/regions/test_fi.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_fi.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 11,
+      "id": "quote-pl",
+      "region": "pl",
+      "task": "Every quote for Poland (PL) is a little lower than the carrier's rate card says it should be. Find the cause in the Poland rate module and fix it. tests/regions/test_pl.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_pl.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 12,
+      "id": "quote-at",
+      "region": "at",
+      "task": "Some customers in remote areas of Austria (AT) are quoted without the remote fee. Find the cause in the Austria rate module and fix it. tests/regions/test_at.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_at.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 13,
+      "id": "quote-ch",
+      "region": "ch",
+      "task": "Quotes for Switzerland (CH) come out one minor unit low on some parcels, compared with the carrier's rate card. Find the cause in the Switzerland rate module and fix it. tests/regions/test_ch.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_ch.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 14,
+      "id": "quote-ie",
+      "region": "ie",
+      "task": "Large, light parcels to Ireland (IE) are being quoted far too cheaply. Find the cause in the Ireland rate module and fix it. tests/regions/test_ie.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_ie.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 15,
+      "id": "quote-pt",
+      "region": "pt",
+      "task": "Every quote for Portugal (PT) is a little lower than the carrier's rate card says it should be. Find the cause in the Portugal rate module and fix it. tests/regions/test_pt.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_pt.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 16,
+      "id": "quote-gb",
+      "region": "gb",
+      "task": "Some customers in remote areas of United Kingdom (GB) are quoted without the remote fee. Find the cause in the United Kingdom rate module and fix it. tests/regions/test_gb.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_gb.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 17,
+      "id": "quote-cz",
+      "region": "cz",
+      "task": "Quotes for Czechia (CZ) come out one minor unit low on some parcels, compared with the carrier's rate card. Find the cause in the Czechia rate module and fix it. tests/regions/test_cz.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_cz.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 18,
+      "id": "quote-gr",
+      "region": "gr",
+      "task": "Large, light parcels to Greece (GR) are being quoted far too cheaply. Find the cause in the Greece rate module and fix it. tests/regions/test_gr.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_gr.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 19,
+      "id": "quote-hu",
+      "region": "hu",
+      "task": "Every quote for Hungary (HU) is a little lower than the carrier's rate card says it should be. Find the cause in the Hungary rate module and fix it. tests/regions/test_hu.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_hu.py tests/test_manifest.py -q -p no:cacheprovider"
+    },
+    {
+      "n": 20,
+      "id": "quote-ro",
+      "region": "ro",
+      "task": "Some customers in remote areas of Romania (RO) are quoted without the remote fee. Find the cause in the Romania rate module and fix it. tests/regions/test_ro.py holds the expected prices.",
+      "test_command": "python -m pytest tests/regions/test_ro.py tests/test_manifest.py -q -p no:cacheprovider"
+    }
+  ]
+}

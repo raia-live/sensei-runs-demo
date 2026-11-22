@@ -1,0 +1,85 @@
+{
+  "regions": {
+    "at": {
+      "currency": "EUR",
+      "sha256": "3c9baa93a6fec52209b2c29cc69525a14e4b2ff2503065561ca0967ab388cf02"
+    },
+    "be": {
+      "currency": "EUR",
+      "sha256": "c6d38f062273a7eb7882ac3c1f4980a5b96bb1576462dd9ebf818193af6a4ec1"
+    },
+    "ch": {
+      "currency": "CHF",
+      "sha256": "5c8060cd1d077d47773633502dea3fd15018b3f0c3d8a114a73bb5e46c83a1e8"
+    },
+    "cz": {
+      "currency": "CZK",
+      "sha256": "2ecdfc68042226e6bca3ef7c5b1673b39aced8b2c051b7651e3956338196c166"
+    },
+    "de": {
+      "currency": "EUR",
+      "sha256": "6e969c67f5f8790af83b3bc10166d8da8243774e5c6ff106ecdf3bec9c4f9321"
+    },
+    "dk": {
+      "currency": "DKK",
+      "sha256": "40ea115503627cb057744b7cdc8047c254e88002c52c9e1557da43b1674c51b0"
+    },
+    "es": {
+      "currency": "EUR",
+      "sha256": "860d84b639fb18387b0885e57a29b1066ec4d77e31cbb36fe0ad70ed7e354e09"
+    },
+    "fi": {
+      "currency": "EUR",
+      "sha256": "e2bf11b001ae86fd681e2994be21f94ec18c1ea9af439f03577a02da265b2b93"
+    },
+    "fr": {
+      "currency": "EUR",
+      "sha256": "4187f0fc43de9a96450036a63a6155c233ace662cb46b1e55e31dc3b2983f132"
+    },
+    "gb": {
+      "currency": "GBP",
+      "sha256": "7dcc125cf50921edef087bd724a3079a97ffdd570ca33eda70200e93fe187a59"
+    },
+    "gr": {
+      "currency": "EUR",
+      "sha256": "1fa2cc3bbe6cb3dc0d9b2086c4a223a3297108435f6216d66edb13ad1608b0a5"
+    },
+    "hu": {
+      "currency": "HUF",
+      "sha256": "cd961fc20f402ad6e03e976c4d70ee052edb7966e3e819fdf7d4d25928cefe49"
+    },
+    "ie": {
+      "currency": "EUR",
+      "sha256": "1f0452e8378e280a5b7f5576bbf04e832920c37993e0b750b4f12c348af106b1"
+    },
+    "it": {
+      "currency": "EUR",
+      "sha256": "34a3fcce518f3199a4052b9862b4a87fdbadaab61d69e1ff740b72fc122fb352"
+    },
+    "nl": {
+      "currency": "EUR",
+      "sha256": "1cd81c325f040d7fbc0f25304cf279ee07b70a52e6c9833c0d10eb8605b4ddcb"
+    },
+    "no": {
+      "currency": "NOK",
+      "sha256": "7b95532724c7fddccdb04a9b9284ae579985d791398cdec5efa923cca5fce365"
+    },
+    "pl": {
+      "currency": "PLN",
+      "sha256": "8a6bdc083abe0cddb26f5df1a293255bb0782b7e745e1378cea6296c7fb2d69e"
+    },
+    "pt": {
+      "currency": "EUR",
+      "sha256": "8207b6cb0fa5dadd524a5ddf6ec91871e8a1f5c4e40290d46645690a35c71ea5"
+    },
+    "ro": {
+      "currency": "RON",
+      "sha256": "05f8a08a31489857f90bf77302d105aca7dd0b67d22fb3d216f53bcaf7f48e34"
+    },
+    "se": {
+      "currency": "SEK",
+      "sha256": "f0a7c8f6b645fa2cc24d07a858af3fa67834031468ba309aa1ab5f97359a948f"
+    }
+  },
+  "version": 1
+}
