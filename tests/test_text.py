@@ -15,3 +15,7 @@ def test_slugify_collapses_punctuation():
 
 def test_word_count():
     assert word_count("one two  three") == 3
+
+
+def test_slugify_only_hyphens_returns_empty():
+    assert slugify("---") == ""
